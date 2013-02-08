@@ -1,0 +1,39 @@
+020 32406672 school 8388 nitin lonari
+spgschool 
+
+
+
+in simla 
+takl to arun dixit 
+hotel colara recents. 
+
+
+
+icube montessori school: our People: karimvelji – Founder & Head of the School
+
+
+
+
+
+@model OdeToFood.Models.AboutModel
+
+@{
+    ViewBag.Title = "About";
+}
+
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>@Model.Name</h2>
+</hgroup>
+
+<div>Location: @Model.Location</div>
+
+
+
+var Controller = RouteData.Values["Controller"];
+            var action = RouteData.Values["action"];
+            var id = RouteData.Values["id"];
+            var Message = String.Format("{0}::{1}::{2}", Controller, action, id);
+           
+            ViewBag.Message = Message;

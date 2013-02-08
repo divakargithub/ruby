@@ -1,0 +1,62 @@
+<html>
+
+<head>
+
+<style>
+
+.color
+
+{
+color:red;
+padding-left:400px;
+}
+</style>
+
+<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+<script>
+
+$(document).ready(function(){
+
+$("#hide").click(function(){
+
+
+$("p").hide()
+
+})
+$("#show").click(function()
+
+{
+$("p").show()
+
+$("p").slideup()
+{
+$("#slideup").click(function(){
+)
+
+)
+
+}
+)
+
+
+}
+)
+</script>
+
+</head>
+
+<title> my first web pages</title>
+
+<body>
+
+<p class="color">Hi how are you</p>
+
+<button id="hide"> Hide</button>
+
+<button  id="show">Show</button>
+
+<button id="slideup">Slideup</botton>
+
+</body>
+
+</html>
